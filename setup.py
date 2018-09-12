@@ -1,9 +1,10 @@
 from setuptools import setup
+from src.proselytize import __VERSION__
 
 
 setup(
     name='proselytize',
-    version='0.0.1',
+    version=__VERSION__,
     description='proselytize converts',
     url='',
     author='Jackson Toomey',
